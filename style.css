@@ -1,0 +1,47 @@
+.title{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    text-align:center;
+    width: 300px;
+    color:#ff4456;
+    border: solid black 1px;
+    }
+    input[type="button"]
+    {
+        height: 90px;
+
+        
+        
+    border-radius: 20px 20px;
+    background-color:#ff4456;
+    color: black;
+    font-size: 300%;
+    border-color:#ff4456 ;
+    width:150px;
+    }
+    input[type="text"]
+    {
+    
+    border-radius: 10px;
+    text-align:center;
+
+    background-color:white;
+    border-color: black ;
+    height: 90px;
+    font-size: 240%;
+    width:98%
+
+    }
+   
+    h3:hover{
+        background-color:#6d585a ;
+
+    }
+ @media screen and (max-width :320px)
+{
+    body.title,input[type="button"], input[type="text"]{
+        background-color:green;
+    }
+} 
+
